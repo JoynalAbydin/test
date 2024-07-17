@@ -1,0 +1,96 @@
+body{
+    background:
+    linear-gradient(#ee010165, transparent),
+    linear-gradient(to top left, #00ff007a, transparent),
+    linear-gradient(to top right, #0000ff6c, transparent);
+    background-blend-mode: screen;
+     }
+.body-continer{
+    max-width: 1000px;
+    background:
+    linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+    font-family: Georgia, serif;
+
+}
+main{
+    padding: 2%;
+}
+
+.img-div-display1{
+    float:left;
+   padding-right: 2%;
+}
+
+.army{
+    border-radius: 50%;
+    height: 480px;
+    border: 2px solid rgb(3, 3, 2);
+   }
+
+#clock{
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25%;
+    margin-right: 35%;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.img-text-display1{
+    float: left;
+}
+
+button{
+    font-size: 17px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(12, 22, 22);
+    background-color: rgb(0, 184, 40);
+}
+button a{
+    text-decoration: none;
+}
+button a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+@media (min-width:500px){
+    .img-div-display1{width:40%} 
+    .img-text-display1{width:55%} 
+     }
+
+.full-display:before{
+    content:" ";
+    display: inline-block;
+    width: 100%;
+}
+
+.full-display>p {
+    text-align: justify;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.full-display>h2 {
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+
+
+#sin{
+    font-family: 'Writing Signature', sans-serif;
+    font-weight: bold;
+    color: gold;
+}
+
+#date-formate{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

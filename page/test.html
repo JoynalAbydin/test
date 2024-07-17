@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+<style>
+.full-display:before,
+.full-display:after{content:"";display:flex;clear:left}
+
+.div-display1{float:left;width:100%}
+@media (min-width:601px){.div-display1{width:50%}
+}
+
+.div-display2{float:left;width:100%}
+@media (min-width:601px){.div-display2{width:50%}
+}
+
+</style>
+</head>
+<body>
+  <header id="dynamicHeader" class="header-nav">
+    <link rel="stylesheet" href="/header-footer/global-styles.css">
+    <script src="/header-footer/global-header.js"></script>
+   </header>
+
+
+  <!-- First Photo Grid-->
+
+    <div class="div-display1">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+
+    <div class="div-display1">
+      <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
+      <h3>Let Me Tell You About This Steak</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+      
+  <!-- About Section -->
+    <div class="full-display">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+ 
+  <!-- First Photo Grid-->
+
+  <div class="div-display2">
+    <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+    <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+  </div>
+
+  <div class="div-display2">
+    <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
+    <h3>Let Me Tell You About This Steak</h3>
+    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+  </div> 
+
+  <div class="full-display"></div>
+
+  
+<footer>
+  <nav id="dynamicFooter"></nav>
+</footer>  
+</body>
+</html>
